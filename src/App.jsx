@@ -28,7 +28,7 @@ function alerta() {
       })
         .then(() => {
           swal({
-          title: "y esa felicidad",
+          title: "Y esa felicidad",
           buttons: {
             cancel: false,
             confirm: true,
