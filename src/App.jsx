@@ -12,7 +12,7 @@ function alerta() {
   })
     .then(() => {
       swal({
-        title: "Sos lo que me da paz",
+        title: "Hay algo más",
         buttons: {
           cancel: false,
           confirm: true,
@@ -20,7 +20,7 @@ function alerta() {
     })
       .then(() => {
             swal({
-            title: "Lo que andaba buscando",
+            title: "Inexplicable como su mirada",
             buttons: {
               cancel: false,
               confirm: true,
@@ -28,7 +28,7 @@ function alerta() {
       })
         .then(() => {
           swal({
-          title: "Y esa felicidad",
+          title: "Inigualable como la manera en que me cela",
           buttons: {
             cancel: false,
             confirm: true,
@@ -36,7 +36,7 @@ function alerta() {
         })      
         .then(() => {
             swal({
-            title: "Que hace que ande sonriendo",
+            title: "Y trata de disimular que no está mal",
             buttons: {
               cancel: false,
               confirm: true,
@@ -44,7 +44,7 @@ function alerta() {
           })      
           .then(() => {
               swal({
-              title: "Quiero verte feliz",
+              title: "Voy a cuidarte por las noches",
               buttons: {
                 cancel: false,
                 confirm: true,
@@ -52,7 +52,7 @@ function alerta() {
             })      
             .then(() => {
                 swal({
-                title: "Mejor si es al lado de mí",
+                title: "Voy a amarte sin reproches",
                 buttons: {
                   cancel: false,
                   confirm: true,
@@ -60,7 +60,7 @@ function alerta() {
               })      
               .then(() => {
                   swal({
-                  title: "Love incondicional",
+                  title: "Te voy a extrañar en la temprestad",
                   buttons: {
                     cancel: false,
                     confirm: true,
@@ -68,7 +68,7 @@ function alerta() {
                 })      
                   .then(() => {
                       swal({
-                      title: "Como perro a su amo",
+                      title: "Y aunque existan mil razones para renunciar",
                       buttons: {
                         cancel: false,
                         confirm: true,
@@ -76,7 +76,7 @@ function alerta() {
                     })      
                     .then(() => {
                         swal({
-                        title: "TE SIGO AMANDO",
+                        title: "No hay nadie más",
                         buttons: {
                           cancel: false,
                           confirm: true,
@@ -98,10 +98,14 @@ function App() {
 
   return (
     <div className="App">
-      <h1>Viguz de amor &#60;3</h1>
+      <h1>Te amo mi niño</h1>
+      <h2>eres lo mejor de mí y de mi mundo</h2>
       <div className="card">
         <button onClick={alerta}>Repetir</button>
       </div>
+      <p className="read-the-docs">
+        Viguz de amor &#60;3
+      </p>
     </div>
   )
 }
