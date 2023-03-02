@@ -60,7 +60,7 @@ function alerta() {
               })      
               .then(() => {
                   swal({
-                  title: "Te voy a extrañar en la temprestad",
+                  title: "Te voy a extrañar en la tempestad",
                   buttons: {
                     cancel: false,
                     confirm: true,
