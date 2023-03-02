@@ -1,24 +1,53 @@
 import { useState } from 'react'
 import './App.css'
+import swal from 'sweetalert';
 
 function alerta() {
-  alert("Hello\nHow are you?");
+  swal({
+    title: "Te la dedico",
+    icon: "info",
+    buttons: true
+  })
+  .then(() => {
+      swal({
+      title: "Sos lo que me da paz",
+      buttons: true
+    })
+      .then(() => {
+        swal({
+        title: "Lo que andaba buscando",
+        buttons: true
+      })
+        .then(() => {
+          swal({
+          title: "y esa felicidad",
+          buttons: true
+        })      
+      })
+        .then(() => {
+            swal({
+            title: "y esa felicidad",
+            buttons: true
+          })      
+        })
+          .then(() => {
+              swal({
+              title: "y esa felicidad",
+              buttons: true
+            })      
+          })
+    })
+  });
 }
 
 function App() {
-  const [count, setCount] = useState(0)
-  
+  alerta()
 
   return (
     <div className="App">
       <h1>Viguz de amor &#60;3</h1>
       <div className="card">
-        <button onClick={() => setCount((count) => count + 1)}>
-          count is {count}
-        </button>
-        <button onclick="alerta()">
-          Try it
-        </button>
+        <button onClick={alerta}>Repetir</button>
       </div>
     </div>
   )
